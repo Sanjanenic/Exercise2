@@ -19,15 +19,14 @@ public class ArraySum {
     public static int calculateSum(int[] numbers){
    int sum=0;
 
-
-
-
    for (int i =0; i<numbers.length-1; i++){
-       sum=sum+i;
-       System.out.println(sum);
-   }
+       sum += numbers[i];
 
+   }
+        System.out.println(sum);
    return sum;
+
+
     }
 }
 
