@@ -4,32 +4,31 @@ import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 
 public class CurrencyExchange {
     public static void main(String[] args) {
-  exchangeCurrency("CAD", 20);
+
+
+        double value=20;
+        String id ="HUF";
+        double result= exchangeCurrency(id,value);
+        System.out.println(value + id +" is " + result);
     }
 
     public static double exchangeCurrency(String currencyID, double value){
          double result = 0.0;// moram uvijek da unutar metode definisem i izijalizuejm varijeblu koju ce vracati metoda
         if(currencyID.equals("HUF")){
              result = value* 328.61;
-            //return result;ovako ne moze jer ne kraju opet ne prepoznaje tu avrijablu
-            System.out.println(value + " HUF is "+ result);
 
         }
         else if (currencyID.equals("SEK")){
              result = value* 10.76;
 
-            System.out.println(value + "SEK is "+ result);
         }
         else if (currencyID.equals("USD")){
              result = value* 1.12;
 
-            System.out.println(value + "USD is "+ result);
-            
         }
         else  if(currencyID.equals("CAD")){
              result = value* 1.47;
 
-           System.out.println(value + "CAD is "+ result);
         }
         return result;
 

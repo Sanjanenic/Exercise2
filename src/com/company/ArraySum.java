@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class ArraySum {
     public static void main(String[] args) {
         int[]numbers = new int []{10,20,30};
-         calculateSum(numbers);
-        //calculateSum(new int []{1,3,4}); ovako ide takodje
+        calculateSum(numbers);
+       // calculateSum(new int []{1,3,4,5,4}); //ovako ide takodje
 
  //Scanner sc =new Scanner(System.in);
         //System.out.println("Enter the size of array!");

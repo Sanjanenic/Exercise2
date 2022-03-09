@@ -8,7 +8,7 @@ public class PerfectNumbers {
     public static void perfectNumber(int numberRange){
         for (int number=1; number <= numberRange; number++){
             int sum = 0;
-            for(int i =1; i<=number/2; i++){
+            for(int i =1; i<=number/2; i++){ //dijeli sa 2 jer je broj djeljiv sa pola sebe kao najveci djelilac
                 if(number%i ==0){
                     sum= sum+ i;
                 }
