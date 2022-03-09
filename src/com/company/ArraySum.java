@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArraySum {
     public static void main(String[] args) {
-        int[]numbers = new int []{10,20,30};
+        int[]numbers = new int []{10,20,30,};
         calculateSum(numbers);
  //Scanner sc =new Scanner(System.in);
         //System.out.println("Enter the size of array!");
@@ -19,7 +19,7 @@ public class ArraySum {
     public static int calculateSum(int[] numbers){
    int sum=0;
 
-   for (int i =0; i<numbers.length-1; i++){
+   for (int i =0; i<numbers.length; i++){
        sum += numbers[i];
 
    }
