@@ -5,6 +5,7 @@ public class LeapYear {
         for( int i = 1; i<=2100; i++){
 
         }
+
         isLeapYear(1996) ;
 
 
